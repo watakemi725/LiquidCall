@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46EFB93D1ABC4EAE0042CE3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EFB93C1ABC4EAE0042CE3B /* AppDelegate.swift */; };
+		46EFB93F1ABC4EAE0042CE3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EFB93E1ABC4EAE0042CE3B /* ViewController.swift */; };
+		46EFB9421ABC4EAE0042CE3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46EFB9401ABC4EAE0042CE3B /* Main.storyboard */; };
+		46EFB9441ABC4EAE0042CE3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46EFB9431ABC4EAE0042CE3B /* Images.xcassets */; };
+		46EFB9471ABC4EAE0042CE3B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46EFB9451ABC4EAE0042CE3B /* LaunchScreen.xib */; };
+		46EFB9531ABC4EAF0042CE3B /* LiquidCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EFB9521ABC4EAF0042CE3B /* LiquidCallTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46EFB94D1ABC4EAF0042CE3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EFB92F1ABC4EAE0042CE3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46EFB9361ABC4EAE0042CE3B;
+			remoteInfo = LiquidCall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46EFB9371ABC4EAE0042CE3B /* LiquidCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiquidCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EFB93B1ABC4EAE0042CE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46EFB93C1ABC4EAE0042CE3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46EFB93E1ABC4EAE0042CE3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46EFB9411ABC4EAE0042CE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46EFB9431ABC4EAE0042CE3B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		46EFB9461ABC4EAE0042CE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		46EFB94C1ABC4EAF0042CE3B /* LiquidCallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiquidCallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EFB9511ABC4EAF0042CE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46EFB9521ABC4EAF0042CE3B /* LiquidCallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidCallTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46EFB9341ABC4EAE0042CE3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EFB9491ABC4EAF0042CE3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46EFB92E1ABC4EAE0042CE3B = {
+			isa = PBXGroup;
+			children = (
+				46EFB9391ABC4EAE0042CE3B /* LiquidCall */,
+				46EFB94F1ABC4EAF0042CE3B /* LiquidCallTests */,
+				46EFB9381ABC4EAE0042CE3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46EFB9381ABC4EAE0042CE3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46EFB9371ABC4EAE0042CE3B /* LiquidCall.app */,
+				46EFB94C1ABC4EAF0042CE3B /* LiquidCallTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46EFB9391ABC4EAE0042CE3B /* LiquidCall */ = {
+			isa = PBXGroup;
+			children = (
+				46EFB93C1ABC4EAE0042CE3B /* AppDelegate.swift */,
+				46EFB93E1ABC4EAE0042CE3B /* ViewController.swift */,
+				46EFB9401ABC4EAE0042CE3B /* Main.storyboard */,
+				46EFB9431ABC4EAE0042CE3B /* Images.xcassets */,
+				46EFB9451ABC4EAE0042CE3B /* LaunchScreen.xib */,
+				46EFB93A1ABC4EAE0042CE3B /* Supporting Files */,
+			);
+			path = LiquidCall;
+			sourceTree = "<group>";
+		};
+		46EFB93A1ABC4EAE0042CE3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46EFB93B1ABC4EAE0042CE3B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46EFB94F1ABC4EAF0042CE3B /* LiquidCallTests */ = {
+			isa = PBXGroup;
+			children = (
+				46EFB9521ABC4EAF0042CE3B /* LiquidCallTests.swift */,
+				46EFB9501ABC4EAF0042CE3B /* Supporting Files */,
+			);
+			path = LiquidCallTests;
+			sourceTree = "<group>";
+		};
+		46EFB9501ABC4EAF0042CE3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46EFB9511ABC4EAF0042CE3B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46EFB9361ABC4EAE0042CE3B /* LiquidCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EFB9561ABC4EAF0042CE3B /* Build configuration list for PBXNativeTarget "LiquidCall" */;
+			buildPhases = (
+				46EFB9331ABC4EAE0042CE3B /* Sources */,
+				46EFB9341ABC4EAE0042CE3B /* Frameworks */,
+				46EFB9351ABC4EAE0042CE3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiquidCall;
+			productName = LiquidCall;
+			productReference = 46EFB9371ABC4EAE0042CE3B /* LiquidCall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46EFB94B1ABC4EAF0042CE3B /* LiquidCallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EFB9591ABC4EAF0042CE3B /* Build configuration list for PBXNativeTarget "LiquidCallTests" */;
+			buildPhases = (
+				46EFB9481ABC4EAF0042CE3B /* Sources */,
+				46EFB9491ABC4EAF0042CE3B /* Frameworks */,
+				46EFB94A1ABC4EAF0042CE3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46EFB94E1ABC4EAF0042CE3B /* PBXTargetDependency */,
+			);
+			name = LiquidCallTests;
+			productName = LiquidCallTests;
+			productReference = 46EFB94C1ABC4EAF0042CE3B /* LiquidCallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46EFB92F1ABC4EAE0042CE3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = watakemi725;
+				TargetAttributes = {
+					46EFB9361ABC4EAE0042CE3B = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					46EFB94B1ABC4EAF0042CE3B = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 46EFB9361ABC4EAE0042CE3B;
+					};
+				};
+			};
+			buildConfigurationList = 46EFB9321ABC4EAE0042CE3B /* Build configuration list for PBXProject "LiquidCall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46EFB92E1ABC4EAE0042CE3B;
+			productRefGroup = 46EFB9381ABC4EAE0042CE3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46EFB9361ABC4EAE0042CE3B /* LiquidCall */,
+				46EFB94B1ABC4EAF0042CE3B /* LiquidCallTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46EFB9351ABC4EAE0042CE3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EFB9421ABC4EAE0042CE3B /* Main.storyboard in Resources */,
+				46EFB9471ABC4EAE0042CE3B /* LaunchScreen.xib in Resources */,
+				46EFB9441ABC4EAE0042CE3B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EFB94A1ABC4EAF0042CE3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46EFB9331ABC4EAE0042CE3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EFB93F1ABC4EAE0042CE3B /* ViewController.swift in Sources */,
+				46EFB93D1ABC4EAE0042CE3B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EFB9481ABC4EAF0042CE3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EFB9531ABC4EAF0042CE3B /* LiquidCallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46EFB94E1ABC4EAF0042CE3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46EFB9361ABC4EAE0042CE3B /* LiquidCall */;
+			targetProxy = 46EFB94D1ABC4EAF0042CE3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46EFB9401ABC4EAE0042CE3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46EFB9411ABC4EAE0042CE3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46EFB9451ABC4EAE0042CE3B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46EFB9461ABC4EAE0042CE3B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46EFB9541ABC4EAF0042CE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46EFB9551ABC4EAF0042CE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46EFB9571ABC4EAF0042CE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LiquidCall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46EFB9581ABC4EAF0042CE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LiquidCall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46EFB95A1ABC4EAF0042CE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LiquidCallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiquidCall.app/LiquidCall";
+			};
+			name = Debug;
+		};
+		46EFB95B1ABC4EAF0042CE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LiquidCallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiquidCall.app/LiquidCall";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46EFB9321ABC4EAE0042CE3B /* Build configuration list for PBXProject "LiquidCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EFB9541ABC4EAF0042CE3B /* Debug */,
+				46EFB9551ABC4EAF0042CE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46EFB9561ABC4EAF0042CE3B /* Build configuration list for PBXNativeTarget "LiquidCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EFB9571ABC4EAF0042CE3B /* Debug */,
+				46EFB9581ABC4EAF0042CE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46EFB9591ABC4EAF0042CE3B /* Build configuration list for PBXNativeTarget "LiquidCallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EFB95A1ABC4EAF0042CE3B /* Debug */,
+				46EFB95B1ABC4EAF0042CE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46EFB92F1ABC4EAE0042CE3B /* Project object */;
+}
