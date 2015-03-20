@@ -13,6 +13,8 @@
 		46EFB9441ABC4EAE0042CE3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46EFB9431ABC4EAE0042CE3B /* Images.xcassets */; };
 		46EFB9471ABC4EAE0042CE3B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46EFB9451ABC4EAE0042CE3B /* LaunchScreen.xib */; };
 		46EFB9531ABC4EAF0042CE3B /* LiquidCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EFB9521ABC4EAF0042CE3B /* LiquidCallTests.swift */; };
+		46EFB95D1ABC7FD40042CE3B /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EFB95C1ABC7FD40042CE3B /* MainTableViewController.swift */; };
+		46EFB95F1ABC7FDE0042CE3B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EFB95E1ABC7FDE0042CE3B /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		46EFB94C1ABC4EAF0042CE3B /* LiquidCallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiquidCallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46EFB9511ABC4EAF0042CE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46EFB9521ABC4EAF0042CE3B /* LiquidCallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidCallTests.swift; sourceTree = "<group>"; };
+		46EFB95C1ABC7FD40042CE3B /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		46EFB95E1ABC7FDE0042CE3B /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				46EFB93C1ABC4EAE0042CE3B /* AppDelegate.swift */,
 				46EFB93E1ABC4EAE0042CE3B /* ViewController.swift */,
+				46EFB95C1ABC7FD40042CE3B /* MainTableViewController.swift */,
+				46EFB95E1ABC7FDE0042CE3B /* TableViewCell.swift */,
 				46EFB9401ABC4EAE0042CE3B /* Main.storyboard */,
 				46EFB9431ABC4EAE0042CE3B /* Images.xcassets */,
 				46EFB9451ABC4EAE0042CE3B /* LaunchScreen.xib */,
@@ -213,6 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				46EFB93F1ABC4EAE0042CE3B /* ViewController.swift in Sources */,
+				46EFB95F1ABC7FDE0042CE3B /* TableViewCell.swift in Sources */,
+				46EFB95D1ABC7FD40042CE3B /* MainTableViewController.swift in Sources */,
 				46EFB93D1ABC4EAE0042CE3B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +413,7 @@
 				46EFB9581ABC4EAF0042CE3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46EFB9591ABC4EAF0042CE3B /* Build configuration list for PBXNativeTarget "LiquidCallTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				46EFB95B1ABC4EAF0042CE3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
