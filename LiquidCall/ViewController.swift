@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     //りきっどコール
+    //いつやるの
 
     override func viewDidLoad() {
         super.viewDidLoad()
