@@ -57,29 +57,39 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     }
     
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return recipes.count
+    }
+    
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let identifier: String = "tableCell"
         
-        var cell: TableViewCell! = tableView.dequeueReusableCellWithIdentifier(identifier) as? TableViewCell
+        var cell: TableViewCell? = tableView.dequeueReusableCellWithIdentifier(identifier) as? TableViewCell
+        
         
         if cell == nil {
             cell = TableViewCell(style: UITableViewCellStyle.Value1, reuseIdentifier: identifier)
         }
         
-        //cell!.backgroundColor = UIColor.orangeColor()
-        if var label = cell.nameLabel{
-            label.text = "This is a title"
-        }
-        cell!.nameLabel?.text = recipes[indexPath.row].name
+        cell!.backgroundColor = UIColor.orangeColor()
+        
+//        if var label = cell?.nameLabel{
+//            label.text = "This is a title"
+//        }
+
+        
+
+        
+        cell?.nameLabel?.text = recipes[indexPath.row].name
+//        cell?.nameLabel!.text = recipes[indexPath.row].name
 //        cell!.thumbnailImageView!.image = UIImage(named:recipes[indexPath.row].thumbnails)
 //        cell!.prepTimeLabel!.text = recipes[indexPath.row].prepTime
         
         return cell!
     }
     
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return recipes.count
-    }
+
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         
