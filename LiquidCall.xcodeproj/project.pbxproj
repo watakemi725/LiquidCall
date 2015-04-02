@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4609F7431ACD630F007D8189 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4609F7421ACD630F007D8189 /* MainViewController.swift */; };
 		46EFB93D1ABC4EAE0042CE3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EFB93C1ABC4EAE0042CE3B /* AppDelegate.swift */; };
 		46EFB93F1ABC4EAE0042CE3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EFB93E1ABC4EAE0042CE3B /* ViewController.swift */; };
 		46EFB9421ABC4EAE0042CE3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46EFB9401ABC4EAE0042CE3B /* Main.storyboard */; };
 		46EFB9441ABC4EAE0042CE3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46EFB9431ABC4EAE0042CE3B /* Images.xcassets */; };
 		46EFB9471ABC4EAE0042CE3B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46EFB9451ABC4EAE0042CE3B /* LaunchScreen.xib */; };
 		46EFB9531ABC4EAF0042CE3B /* LiquidCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EFB9521ABC4EAF0042CE3B /* LiquidCallTests.swift */; };
-		46EFB95D1ABC7FD40042CE3B /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EFB95C1ABC7FD40042CE3B /* MainTableViewController.swift */; };
 		46EFB95F1ABC7FDE0042CE3B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EFB95E1ABC7FDE0042CE3B /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4609F7421ACD630F007D8189 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		46EFB9371ABC4EAE0042CE3B /* LiquidCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiquidCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46EFB93B1ABC4EAE0042CE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46EFB93C1ABC4EAE0042CE3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,7 +39,6 @@
 		46EFB94C1ABC4EAF0042CE3B /* LiquidCallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiquidCallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46EFB9511ABC4EAF0042CE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46EFB9521ABC4EAF0042CE3B /* LiquidCallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidCallTests.swift; sourceTree = "<group>"; };
-		46EFB95C1ABC7FD40042CE3B /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		46EFB95E1ABC7FDE0042CE3B /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,7 +83,7 @@
 			children = (
 				46EFB93C1ABC4EAE0042CE3B /* AppDelegate.swift */,
 				46EFB93E1ABC4EAE0042CE3B /* ViewController.swift */,
-				46EFB95C1ABC7FD40042CE3B /* MainTableViewController.swift */,
+				4609F7421ACD630F007D8189 /* MainViewController.swift */,
 				46EFB95E1ABC7FDE0042CE3B /* TableViewCell.swift */,
 				46EFB9401ABC4EAE0042CE3B /* Main.storyboard */,
 				46EFB9431ABC4EAE0042CE3B /* Images.xcassets */,
@@ -220,8 +220,8 @@
 			files = (
 				46EFB93F1ABC4EAE0042CE3B /* ViewController.swift in Sources */,
 				46EFB95F1ABC7FDE0042CE3B /* TableViewCell.swift in Sources */,
-				46EFB95D1ABC7FD40042CE3B /* MainTableViewController.swift in Sources */,
 				46EFB93D1ABC4EAE0042CE3B /* AppDelegate.swift in Sources */,
+				4609F7431ACD630F007D8189 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
