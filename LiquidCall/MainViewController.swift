@@ -29,6 +29,9 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         navigationItem.title = "Recipes"
         
         initializeTheRecipes()
+        //コールなどをplistから読み込んでくるようにする
+        
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -36,6 +39,22 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         // Dispose of any resources that can be recreated.
         
     }
+    
+
+    
+//    -(void)setPandaAnimation:(int)animationnumber{
+//    NSArray *arr = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"animations" ofType:@"plist"]];
+//    prefix      =    arr [animationnumber][@"prefix"];
+//    wakeStart   =   [arr [animationnumber][@"wakeStart"] intValue];
+//    wakeEnd     =   [arr [animationnumber][@"wakeEnd"]  intValue];
+//    loopStart   =   [arr [animationnumber][@"loopStart"]intValue];
+//    loopEnd     =   [arr [animationnumber][@"loopEnd"]  intValue];
+//    actStart    =   [arr [animationnumber][@"actStart"] intValue];
+//    actEnd      =   [arr [animationnumber][@"actEnd"]   intValue];
+//    endloopStart=   [arr [animationnumber][@"endloopStart"]   intValue];
+//    endloopEnd  =   [arr [animationnumber][@"endloopEnd"]   intValue];
+//    }
+    
     
     func initializeTheRecipes() {
         self.recipes = [Recipe(name: "Egg Benedict", thumbnails: "egg_benedict.jpg", prepTime: "1 hour"),
@@ -96,13 +115,13 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         return 78.0
     }
     
-    func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        
-        recipes.removeAtIndex(indexPath.row)
-        
-        tableView.reloadData()
-        
-    }
+//    func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+//        
+//        recipes.removeAtIndex(indexPath.row)
+//        
+//        tableView.reloadData()
+//        
+//    }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "recipeDetail" {

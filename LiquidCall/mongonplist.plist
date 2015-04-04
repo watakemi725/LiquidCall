@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>toptext</key>
+		<string>sleep</string>
+		<key>calltext</key>
+		<string>0</string>
+		<key>meaning</key>
+		<string>0</string>
+		<key>sound</key>
+		<string></string>
+	</dict>
+    <dict>
+        <key>toptext</key>
+        <string>sleep</string>
+        <key>calltext</key>
+        <string>0</string>
+        <key>meaning</key>
+        <string>0</string>
+        <key>sound</key>
+        <string></string>
+    </dict>
+    <dict>
+        <key>toptext</key>
+        <string>sleep</string>
+        <key>calltext</key>
+        <string>0</string>
+        <key>meaning</key>
+        <string>0</string>
+        <key>sound</key>
+        <string></string>
+    </dict>
+    <dict>
+        <key>toptext</key>
+        <string>sleep</string>
+        <key>calltext</key>
+        <string>0</string>
+        <key>meaning</key>
+        <string>0</string>
+        <key>sound</key>
+        <string></string>
+    </dict>
+	<dict/>
+	<dict/>
+	<dict/>
+	<dict/>
+</array>
+</plist>
