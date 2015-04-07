@@ -97,9 +97,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
 //            label.text = "This is a title"
 //        }
 
-        
 
-        
         cell?.nameLabel?.text = recipes[indexPath.row].name
 //        cell?.nameLabel!.text = recipes[indexPath.row].name
 //        cell!.thumbnailImageView!.image = UIImage(named:recipes[indexPath.row].thumbnails)
