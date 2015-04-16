@@ -4,6 +4,16 @@
 <array>
 	<dict>
 		<key>toptext</key>
+		<string>どうした</string>
+		<key>calltext</key>
+		<string>どうしたーたなかぁそんなもんじゃあねぇだろー　※repeat</string>
+		<key>meaning</key>
+		<string>2杯目に使える。気持ちで表すと「1杯だけかよ、どうしたんだよ田中」をいみする。</string>
+		<key>sound</key>
+		<string>sound1</string>
+	</dict>
+	<dict>
+		<key>toptext</key>
 		<string>sleep</string>
 		<key>calltext</key>
 		<string>0</string>
@@ -12,36 +22,26 @@
 		<key>sound</key>
 		<string></string>
 	</dict>
-    <dict>
-        <key>toptext</key>
-        <string>sleep</string>
-        <key>calltext</key>
-        <string>0</string>
-        <key>meaning</key>
-        <string>0</string>
-        <key>sound</key>
-        <string></string>
-    </dict>
-    <dict>
-        <key>toptext</key>
-        <string>sleep</string>
-        <key>calltext</key>
-        <string>0</string>
-        <key>meaning</key>
-        <string>0</string>
-        <key>sound</key>
-        <string></string>
-    </dict>
-    <dict>
-        <key>toptext</key>
-        <string>sleep</string>
-        <key>calltext</key>
-        <string>0</string>
-        <key>meaning</key>
-        <string>0</string>
-        <key>sound</key>
-        <string></string>
-    </dict>
+	<dict>
+		<key>toptext</key>
+		<string>sleep</string>
+		<key>calltext</key>
+		<string>0</string>
+		<key>meaning</key>
+		<string>0</string>
+		<key>sound</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>toptext</key>
+		<string>sleep</string>
+		<key>calltext</key>
+		<string>0</string>
+		<key>meaning</key>
+		<string>0</string>
+		<key>sound</key>
+		<string></string>
+	</dict>
 	<dict/>
 	<dict/>
 	<dict/>

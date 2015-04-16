@@ -11,6 +11,10 @@ import UIKit
 
 class MainViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
+    //リスト内にDicに追加
+     var list = [Dic]()
+    
+    
     @IBOutlet var tableView: UITableView?
     
     struct Recipe {
