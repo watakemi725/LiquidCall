@@ -17,11 +17,14 @@ class ViewController: UIViewController {
 
     @IBOutlet var imageView: UIImageView?
     @IBOutlet var nameLabel: UILabel?
-    @IBOutlet var prepTime: UILabel?
+    @IBOutlet var prepTime: UITextView?
+    @IBOutlet var allcall: UITextView?
+    
     
     var nameString: String?
     var prepString: String?
     var imageName: String?
+    var allcallString: String?
     
     
     override func viewDidLoad() {
@@ -33,6 +36,7 @@ class ViewController: UIViewController {
         imageView?.image = UIImage(named: imageName!)
         nameLabel?.text = nameString!
         prepTime?.text = prepString!
+        allcall?.text = allcallString!
         
     }
 

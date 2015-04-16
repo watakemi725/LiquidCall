@@ -10,7 +10,6 @@
 		4609F7431ACD630F007D8189 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4609F7421ACD630F007D8189 /* MainViewController.swift */; };
 		463839921ACE26630009B83A /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463839911ACE26630009B83A /* MoreViewController.swift */; };
 		463839941ACE2A160009B83A /* mongonplist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 463839931ACE2A160009B83A /* mongonplist.plist */; };
-		46459A651ADF7BC700CD7FA7 /* Dic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46459A641ADF7BC700CD7FA7 /* Dic.swift */; };
 		46EFB93D1ABC4EAE0042CE3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EFB93C1ABC4EAE0042CE3B /* AppDelegate.swift */; };
 		46EFB93F1ABC4EAE0042CE3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EFB93E1ABC4EAE0042CE3B /* ViewController.swift */; };
 		46EFB9421ABC4EAE0042CE3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46EFB9401ABC4EAE0042CE3B /* Main.storyboard */; };
@@ -34,7 +33,6 @@
 		4609F7421ACD630F007D8189 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		463839911ACE26630009B83A /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		463839931ACE2A160009B83A /* mongonplist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mongonplist.plist; sourceTree = "<group>"; };
-		46459A641ADF7BC700CD7FA7 /* Dic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dic.swift; path = ../Dic.swift; sourceTree = "<group>"; };
 		46EFB9371ABC4EAE0042CE3B /* LiquidCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiquidCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46EFB93B1ABC4EAE0042CE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46EFB93C1ABC4EAE0042CE3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,7 +85,6 @@
 		46EFB9391ABC4EAE0042CE3B /* LiquidCall */ = {
 			isa = PBXGroup;
 			children = (
-				46459A641ADF7BC700CD7FA7 /* Dic.swift */,
 				46EFB93C1ABC4EAE0042CE3B /* AppDelegate.swift */,
 				46EFB93E1ABC4EAE0042CE3B /* ViewController.swift */,
 				4609F7421ACD630F007D8189 /* MainViewController.swift */,
@@ -230,7 +227,6 @@
 			files = (
 				463839921ACE26630009B83A /* MoreViewController.swift in Sources */,
 				46EFB93F1ABC4EAE0042CE3B /* ViewController.swift in Sources */,
-				46459A651ADF7BC700CD7FA7 /* Dic.swift in Sources */,
 				46EFB95F1ABC7FDE0042CE3B /* TableViewCell.swift in Sources */,
 				46EFB93D1ABC4EAE0042CE3B /* AppDelegate.swift in Sources */,
 				4609F7431ACD630F007D8189 /* MainViewController.swift in Sources */,
