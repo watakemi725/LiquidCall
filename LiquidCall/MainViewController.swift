@@ -66,9 +66,9 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         navigationItem.title = "飲み会コール帳"
         
-        self.view.backgroundColor = UIColor.yellowColor()
+        self.view.backgroundColor = UIColor.redColor()
         
-        tableView?.backgroundColor = UIColor.yellowColor()
+        tableView?.backgroundColor = UIColor.redColor()
         
         
         initializeTheRecipes()
@@ -202,7 +202,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     func initializeTheRecipes() {
         
         
-        self.recipes = [Recipe(topCall: "どうした", mainCall: "どうしたーたなかぁそんなもんじゃあねぇだろー　※repeat", meaning: "2杯目に使える。気持ちで表すと「1杯だけかよ、どうしたんだよ田中」をいみする。", sound: "test"),
+        self.recipes = [Recipe(topCall: "  どうした", mainCall: "どうしたーたなかぁそんなもんじゃあねぇだろー　※repeat", meaning: "2杯目に使える。気持ちで表すと「1杯だけかよ、どうしたんだよ田中」をいみする。", sound: "test"),
             Recipe(topCall: "SOS", mainCall: "エスー、オー、エスー、オー、エスオーエスオー、ソソオ!ソソオ!", meaning: "お酒をこぼしたり、ゲームに間違えたときに使える、世代を超えても広く使われるコール", sound: ""),
             Recipe(topCall: "パッパラパッパ", mainCall: "パッパラパッパッパ、遊びじゃねんだよ、パッパラパッパッパ、そんなの水だよ", meaning: "裏打ちで,パ,をいれることが難しいコール。しっかりと練習を備えて頑張ろう。", sound: ""),
             Recipe(topCall: "呑みたい騒ぎたい", mainCall: "田中が呑みたい騒ぎたい、胃腸に関して プチョ ヘンズ アップ(put your hands up)、ハイのーんでのんでのんでプチョ ヘンズ アップ、ハイのーんでのんでのんでプチョ ヘンズ アップ※repeat", meaning: "胃腸に関してお手上げだ(put your hands up)あるいは盛り上がっていこう手を上げろという意味がある。正直知らない", sound: ""),
@@ -271,7 +271,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         
-        return 78.0
+        return 70.0
     }
     
     //    func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {

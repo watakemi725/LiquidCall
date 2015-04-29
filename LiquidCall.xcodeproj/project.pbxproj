@@ -21,6 +21,8 @@
 		46CFBD721AF1492B0091C6D0 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 46CFBD671AF1492B0091C6D0 /* Icon-Small.png */; };
 		46CFBD731AF1492B0091C6D0 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46CFBD681AF1492B0091C6D0 /* Icon-Small@2x.png */; };
 		46CFBD741AF1492B0091C6D0 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46CFBD691AF1492B0091C6D0 /* Icon-Small@3x.png */; };
+		46CFBD761AF1516E0091C6D0 /* doshita1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 46CFBD751AF1516E0091C6D0 /* doshita1.wav */; };
+		46CFBD781AF151A00091C6D0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46CFBD771AF151A00091C6D0 /* AVFoundation.framework */; };
 		46EFB93D1ABC4EAE0042CE3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EFB93C1ABC4EAE0042CE3B /* AppDelegate.swift */; };
 		46EFB93F1ABC4EAE0042CE3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EFB93E1ABC4EAE0042CE3B /* ViewController.swift */; };
 		46EFB9421ABC4EAE0042CE3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46EFB9401ABC4EAE0042CE3B /* Main.storyboard */; };
@@ -55,6 +57,8 @@
 		46CFBD671AF1492B0091C6D0 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
 		46CFBD681AF1492B0091C6D0 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
 		46CFBD691AF1492B0091C6D0 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		46CFBD751AF1516E0091C6D0 /* doshita1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = doshita1.wav; sourceTree = "<group>"; };
+		46CFBD771AF151A00091C6D0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		46EFB9371ABC4EAE0042CE3B /* LiquidCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiquidCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46EFB93B1ABC4EAE0042CE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46EFB93C1ABC4EAE0042CE3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46CFBD781AF151A00091C6D0 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +112,8 @@
 		46EFB92E1ABC4EAE0042CE3B = {
 			isa = PBXGroup;
 			children = (
+				46CFBD771AF151A00091C6D0 /* AVFoundation.framework */,
+				46CFBD751AF1516E0091C6D0 /* doshita1.wav */,
 				46CFBD5E1AF1492B0091C6D0 /* AppIcon.appiconset */,
 				46EFB9391ABC4EAE0042CE3B /* LiquidCall */,
 				46EFB94F1ABC4EAF0042CE3B /* LiquidCallTests */,
@@ -250,6 +257,7 @@
 				46CFBD6B1AF1492B0091C6D0 /* Icon-40.png in Resources */,
 				46CFBD741AF1492B0091C6D0 /* Icon-Small@3x.png in Resources */,
 				46CFBD721AF1492B0091C6D0 /* Icon-Small.png in Resources */,
+				46CFBD761AF1516E0091C6D0 /* doshita1.wav in Resources */,
 				463839941ACE2A160009B83A /* mongonplist.plist in Resources */,
 				46CFBD6C1AF1492B0091C6D0 /* Icon-40@2x.png in Resources */,
 				46CFBD6E1AF1492B0091C6D0 /* Icon-60@2x.png in Resources */,

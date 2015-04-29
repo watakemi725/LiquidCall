@@ -7,10 +7,11 @@
 //
 import Foundation
 import UIKit
+import AVFoundation
 
 //detail みたいなかんじ
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,AVAudioPlayerDelegate {
     
     //りきっどコール
     //いつやるの
@@ -20,6 +21,8 @@ class ViewController: UIViewController {
     @IBOutlet var prepTime: UITextView?
     @IBOutlet var allcall: UITextView?
     
+    var audioPlayer:AVAudioPlayer!
+    var sound_data :NSURL?
     
     var nameString: String?
     var prepString: String?
@@ -31,6 +34,19 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+
+        
+       
+        
+        sound_data = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("doshita1", ofType: "wav")!)
+        audioPlayer = AVAudioPlayer(contentsOfURL: sound_data, error: nil)
+        
+        //AVAudioPlayerのデリゲートをセット.
+        audioPlayer.delegate = self
+        
+        audioPlayer.prepareToPlay()
+        
+        
         navigationItem.title = nameString!
         
         imageView?.image = UIImage(named: imageName!)
@@ -38,6 +54,28 @@ class ViewController: UIViewController {
         prepTime?.text = prepString!
         allcall?.text = allcallString!
         
+    }
+    
+    @IBAction func play(){
+        audioPlayer.play()
+
+    }
+    
+    //ボタンがタップされた時に呼ばれるメソッド.
+    func onClickMyButton(sender: UIButton) {
+        
+        //playingプロパティがtrueであれば音源再生中.
+        if audioPlayer.playing == true {
+            
+            //myAudioPlayerを一時停止.
+            audioPlayer.pause()
+            sender.setTitle("▶︎", forState: .Normal)
+        } else {
+            
+            //myAudioPlayerの再生.
+            audioPlayer.play()
+            sender.setTitle("■", forState: .Normal)
+        }
     }
 
 //    override func didReceiveMemoryWarning() {
