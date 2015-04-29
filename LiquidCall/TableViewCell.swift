@@ -17,7 +17,7 @@ class TableViewCell: UITableViewCell {
 //    @IBOutlet var prepTimeLabel: UILabel?
 //    @IBOutlet var thumbnailImageView: UIImageView?
     
-    
+
     
 //    override func awakeFromNib() {
 //        super.awakeFromNib()
