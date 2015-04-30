@@ -10,6 +10,17 @@
 		4609F7431ACD630F007D8189 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4609F7421ACD630F007D8189 /* MainViewController.swift */; };
 		463839921ACE26630009B83A /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463839911ACE26630009B83A /* MoreViewController.swift */; };
 		463839941ACE2A160009B83A /* mongonplist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 463839931ACE2A160009B83A /* mongonplist.plist */; };
+		4682CDA01AF1B69E00339398 /* FOT-MatissePro-EB.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4682CD9F1AF1B69E00339398 /* FOT-MatissePro-EB.otf */; };
+		46B9FF961AF1FE0F00B9F439 /* shubiduba.wav in Resources */ = {isa = PBXBuildFile; fileRef = 46B9FF8F1AF1FE0F00B9F439 /* shubiduba.wav */; };
+		46B9FF971AF1FE0F00B9F439 /* hayaku.wav in Resources */ = {isa = PBXBuildFile; fileRef = 46B9FF901AF1FE0F00B9F439 /* hayaku.wav */; };
+		46B9FF981AF1FE0F00B9F439 /* inchiki.wav in Resources */ = {isa = PBXBuildFile; fileRef = 46B9FF911AF1FE0F00B9F439 /* inchiki.wav */; };
+		46B9FF991AF1FE0F00B9F439 /* madamada.wav in Resources */ = {isa = PBXBuildFile; fileRef = 46B9FF921AF1FE0F00B9F439 /* madamada.wav */; };
+		46B9FF9A1AF1FE0F00B9F439 /* puthandsup.wav in Resources */ = {isa = PBXBuildFile; fileRef = 46B9FF931AF1FE0F00B9F439 /* puthandsup.wav */; };
+		46B9FF9B1AF1FE0F00B9F439 /* paparapa.wav in Resources */ = {isa = PBXBuildFile; fileRef = 46B9FF941AF1FE0F00B9F439 /* paparapa.wav */; };
+		46B9FF9C1AF1FE0F00B9F439 /* sos.wav in Resources */ = {isa = PBXBuildFile; fileRef = 46B9FF951AF1FE0F00B9F439 /* sos.wav */; };
+		46B9FFA01AF2031600B9F439 /* top.png in Resources */ = {isa = PBXBuildFile; fileRef = 46B9FF9F1AF2031600B9F439 /* top.png */; };
+		46B9FFA21AF20B4700B9F439 /* toptop.png in Resources */ = {isa = PBXBuildFile; fileRef = 46B9FFA11AF20B4700B9F439 /* toptop.png */; };
+		46B9FFA41AF20C0200B9F439 /* toptop2.png in Resources */ = {isa = PBXBuildFile; fileRef = 46B9FFA31AF20C0200B9F439 /* toptop2.png */; };
 		46CFBD6A1AF1492B0091C6D0 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 46CFBD5F1AF1492B0091C6D0 /* Contents.json */; };
 		46CFBD6B1AF1492B0091C6D0 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 46CFBD601AF1492B0091C6D0 /* Icon-40.png */; };
 		46CFBD6C1AF1492B0091C6D0 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46CFBD611AF1492B0091C6D0 /* Icon-40@2x.png */; };
@@ -46,6 +57,17 @@
 		4609F7421ACD630F007D8189 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		463839911ACE26630009B83A /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		463839931ACE2A160009B83A /* mongonplist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mongonplist.plist; sourceTree = "<group>"; };
+		4682CD9F1AF1B69E00339398 /* FOT-MatissePro-EB.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FOT-MatissePro-EB.otf"; sourceTree = "<group>"; };
+		46B9FF8F1AF1FE0F00B9F439 /* shubiduba.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shubiduba.wav; sourceTree = "<group>"; };
+		46B9FF901AF1FE0F00B9F439 /* hayaku.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hayaku.wav; sourceTree = "<group>"; };
+		46B9FF911AF1FE0F00B9F439 /* inchiki.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = inchiki.wav; sourceTree = "<group>"; };
+		46B9FF921AF1FE0F00B9F439 /* madamada.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = madamada.wav; sourceTree = "<group>"; };
+		46B9FF931AF1FE0F00B9F439 /* puthandsup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = puthandsup.wav; sourceTree = "<group>"; };
+		46B9FF941AF1FE0F00B9F439 /* paparapa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = paparapa.wav; sourceTree = "<group>"; };
+		46B9FF951AF1FE0F00B9F439 /* sos.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sos.wav; sourceTree = "<group>"; };
+		46B9FF9F1AF2031600B9F439 /* top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top.png; sourceTree = "<group>"; };
+		46B9FFA11AF20B4700B9F439 /* toptop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toptop.png; sourceTree = "<group>"; };
+		46B9FFA31AF20C0200B9F439 /* toptop2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toptop2.png; sourceTree = "<group>"; };
 		46CFBD5F1AF1492B0091C6D0 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		46CFBD601AF1492B0091C6D0 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
 		46CFBD611AF1492B0091C6D0 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
@@ -91,6 +113,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46B9FF8E1AF1EF0300B9F439 /* Soundfile */ = {
+			isa = PBXGroup;
+			children = (
+				46B9FF8F1AF1FE0F00B9F439 /* shubiduba.wav */,
+				46B9FF901AF1FE0F00B9F439 /* hayaku.wav */,
+				46B9FF911AF1FE0F00B9F439 /* inchiki.wav */,
+				46B9FF921AF1FE0F00B9F439 /* madamada.wav */,
+				46B9FF931AF1FE0F00B9F439 /* puthandsup.wav */,
+				46B9FF941AF1FE0F00B9F439 /* paparapa.wav */,
+				46B9FF951AF1FE0F00B9F439 /* sos.wav */,
+				46CFBD751AF1516E0091C6D0 /* doshita1.wav */,
+			);
+			name = Soundfile;
+			sourceTree = "<group>";
+		};
 		46CFBD5E1AF1492B0091C6D0 /* AppIcon.appiconset */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,8 +149,12 @@
 		46EFB92E1ABC4EAE0042CE3B = {
 			isa = PBXGroup;
 			children = (
+				46B9FFA11AF20B4700B9F439 /* toptop.png */,
+				46B9FFA31AF20C0200B9F439 /* toptop2.png */,
+				46B9FF9F1AF2031600B9F439 /* top.png */,
+				4682CD9F1AF1B69E00339398 /* FOT-MatissePro-EB.otf */,
 				46CFBD771AF151A00091C6D0 /* AVFoundation.framework */,
-				46CFBD751AF1516E0091C6D0 /* doshita1.wav */,
+				46B9FF8E1AF1EF0300B9F439 /* Soundfile */,
 				46CFBD5E1AF1492B0091C6D0 /* AppIcon.appiconset */,
 				46EFB9391ABC4EAE0042CE3B /* LiquidCall */,
 				46EFB94F1ABC4EAF0042CE3B /* LiquidCallTests */,
@@ -252,22 +293,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46B9FF9C1AF1FE0F00B9F439 /* sos.wav in Resources */,
 				46CFBD6A1AF1492B0091C6D0 /* Contents.json in Resources */,
+				46B9FF991AF1FE0F00B9F439 /* madamada.wav in Resources */,
 				46EFB9421ABC4EAE0042CE3B /* Main.storyboard in Resources */,
+				46B9FF961AF1FE0F00B9F439 /* shubiduba.wav in Resources */,
 				46CFBD6B1AF1492B0091C6D0 /* Icon-40.png in Resources */,
+				4682CDA01AF1B69E00339398 /* FOT-MatissePro-EB.otf in Resources */,
+				46B9FF9A1AF1FE0F00B9F439 /* puthandsup.wav in Resources */,
 				46CFBD741AF1492B0091C6D0 /* Icon-Small@3x.png in Resources */,
+				46B9FF971AF1FE0F00B9F439 /* hayaku.wav in Resources */,
 				46CFBD721AF1492B0091C6D0 /* Icon-Small.png in Resources */,
 				46CFBD761AF1516E0091C6D0 /* doshita1.wav in Resources */,
 				463839941ACE2A160009B83A /* mongonplist.plist in Resources */,
+				46B9FF981AF1FE0F00B9F439 /* inchiki.wav in Resources */,
 				46CFBD6C1AF1492B0091C6D0 /* Icon-40@2x.png in Resources */,
 				46CFBD6E1AF1492B0091C6D0 /* Icon-60@2x.png in Resources */,
 				46CFBD701AF1492B0091C6D0 /* Icon-76.png in Resources */,
 				46CFBD6F1AF1492B0091C6D0 /* Icon-60@3x.png in Resources */,
+				46B9FFA01AF2031600B9F439 /* top.png in Resources */,
 				46EFB9471ABC4EAE0042CE3B /* LaunchScreen.xib in Resources */,
 				46CFBD6D1AF1492B0091C6D0 /* Icon-40@3x.png in Resources */,
+				46B9FFA41AF20C0200B9F439 /* toptop2.png in Resources */,
 				46CFBD711AF1492B0091C6D0 /* Icon-76@2x.png in Resources */,
 				46EFB9441ABC4EAE0042CE3B /* Images.xcassets in Resources */,
+				46B9FF9B1AF1FE0F00B9F439 /* paparapa.wav in Resources */,
 				46CFBD731AF1492B0091C6D0 /* Icon-Small@2x.png in Resources */,
+				46B9FFA21AF20B4700B9F439 /* toptop.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

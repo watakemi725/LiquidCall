@@ -64,7 +64,8 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        navigationItem.title = "飲み会コール帳"
+//        navigationItem.title = "飲み会コール帳"
+        
         
         self.view.backgroundColor = UIColor.redColor()
         
@@ -75,6 +76,11 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         //コールなどをplistから読み込んでくるようにする
         
 //        self.loadGameData()
+        
+        
+        //navigationbarの画像を変える
+        var titleImage: UIImage? = UIImage(named:"toptop2.png")
+        self.navigationController?.navigationBar.setBackgroundImage(titleImage, forBarMetrics: .Default)
         
     }
     
@@ -202,14 +208,14 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     func initializeTheRecipes() {
         
         
-        self.recipes = [Recipe(topCall: "  どうした", mainCall: "どうしたーたなかぁそんなもんじゃあねぇだろー　※repeat", meaning: "2杯目に使える。気持ちで表すと「1杯だけかよ、どうしたんだよ田中」をいみする。", sound: "test"),
-            Recipe(topCall: "SOS", mainCall: "エスー、オー、エスー、オー、エスオーエスオー、ソソオ!ソソオ!", meaning: "お酒をこぼしたり、ゲームに間違えたときに使える、世代を超えても広く使われるコール", sound: ""),
-            Recipe(topCall: "パッパラパッパ", mainCall: "パッパラパッパッパ、遊びじゃねんだよ、パッパラパッパッパ、そんなの水だよ", meaning: "裏打ちで,パ,をいれることが難しいコール。しっかりと練習を備えて頑張ろう。", sound: ""),
-            Recipe(topCall: "呑みたい騒ぎたい", mainCall: "田中が呑みたい騒ぎたい、胃腸に関して プチョ ヘンズ アップ(put your hands up)、ハイのーんでのんでのんでプチョ ヘンズ アップ、ハイのーんでのんでのんでプチョ ヘンズ アップ※repeat", meaning: "胃腸に関してお手上げだ(put your hands up)あるいは盛り上がっていこう手を上げろという意味がある。正直知らない", sound: ""),
-            Recipe(topCall: "まだまだいける", mainCall: "まだまだいける！パーリラッパリラパーリラ フーフー！パーリラッパリラパーリラ フーフー！※repeat", meaning: "呑み終わったところでさらに呑ませたいときに使える突発型。まわりが知っていればさらに盛り上がる。", sound: ""),
-            Recipe(topCall: "いんちきー", mainCall: "インチキーインチキーインチキインチキ、カブト！クワガタ、クワガタ、クワガタ、カブト！気の蜜シュシュシュ、木の蜜シュシュ、", meaning: "ゲームに負けているのに知らんふりをしていたり、呑み残していたりと、いんちきな行為をしたときに使える。「あれ、インチキじゃね？」が開始の合図である", sound: ""),
-            Recipe(topCall: "はーやくのめ", mainCall: "はーやく呑め！はーやく呑め！", meaning: "とりあえず早く呑め。言い訳してくる人に使えるコールである。", sound: ""),
-            Recipe(topCall: "シュビドゥバドゥ", mainCall: "まだまだ呑みたいシュビドゥバドゥ、ハイっグーグーグー、のんでのんでのーんでのんでのんで、モッ!、のんでのんでのーんでのんでのんで、モッモッ! 、のんでのんでのーんでのんでのんで、モモモッ!、まだまだ〜", meaning: "とても長いコールだが、リピートも綺麗に出来るハイブリッドコールといってわるくないだろう。", sound: ""),
+        self.recipes = [Recipe(topCall: "どうした", mainCall: "どうしたーたなかぁそんなもんじゃあねぇだろー　※repeat", meaning: "2杯目に使える。気持ちで表すと「1杯だけかよ、どうしたんだよ田中」をいみする。", sound: "doshita1"),
+            Recipe(topCall: "SOS", mainCall: "エスー、オー、エスー、オー、エスオーエスオー、ソソオ!ソソオ!", meaning: "お酒をこぼしたり、ゲームに間違えたときに使える、世代を超えても広く使われるコール", sound: "sos"),
+            Recipe(topCall: "パッパラパッパ", mainCall: "パッパラパッパッパ、遊びじゃねんだよ、パッパラパッパッパ、そんなの水だよ", meaning: "裏打ちで,パ,をいれることが難しいコール。しっかりと練習を備えて頑張ろう。", sound: "paparapa"),
+            Recipe(topCall: "呑みたい騒ぎたい", mainCall: "田中が呑みたい騒ぎたい、胃腸に関して プチョ ヘンズ アップ(put your hands up)、ハイのーんでのんでのんでプチョ ヘンズ アップ、ハイのーんでのんでのんでプチョ ヘンズ アップ※repeat", meaning: "胃腸に関してお手上げだ(put your hands up)あるいは盛り上がっていこう手を上げろという意味がある。正直知らない", sound: "puthandsup"),
+            Recipe(topCall: "まだまだいける", mainCall: "まだまだいける！パーリラッパリラパーリラ フーフー！パーリラッパリラパーリラ フーフー！※repeat", meaning: "呑み終わったところでさらに呑ませたいときに使える突発型。まわりが知っていればさらに盛り上がる。", sound: "madamada"),
+            Recipe(topCall: "いんちきー", mainCall: "インチキーインチキーインチキインチキ、カブト！クワガタ、クワガタ、クワガタ、カブト！木の蜜シュシュシュ、木の蜜シュシュ、", meaning: "ゲームに負けているのに知らんふりをしていたり、呑み残していたりと、いんちきな行為をしたときに使える。「あれ、インチキじゃね？」が開始の合図である", sound: "inchiki"),
+            Recipe(topCall: "はーやくのめ", mainCall: "はーやく呑め！はーやく呑め！", meaning: "とりあえず早く呑め。言い訳してくる人に使えるコールである。", sound: "hayaku"),
+            Recipe(topCall: "シュビドゥバドゥ", mainCall: "まだまだ呑みたいシュビドゥバドゥ、ハイっグーグーグー、のんでのんでのーんでのんでのんで、モッ!、のんでのんでのーんでのんでのんで、モッモッ! 、のんでのんでのーんでのんでのんで、モモモッ!、まだまだ〜", meaning: "とても長いコールだが、リピートも綺麗に出来るハイブリッドコールといってわるくないだろう。", sound: "shubiduba"),
             Recipe(topCall: "", mainCall: "", meaning: "", sound: ""),
             
             
@@ -241,6 +247,8 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         return recipes.count
     }
     
+    
+    
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let identifier: String = "tableCell"
         
@@ -252,14 +260,17 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
             cell = TableViewCell(style: UITableViewCellStyle.Value1, reuseIdentifier: identifier)
         }
         
-        cell!.backgroundColor = UIColor.whiteColor()
+        cell!.backgroundColor = UIColor.redColor()
         
         //        if var label = cell?.nameLabel{
         //            label.text = "This is a title"
         //        }
         
-        
+        cell?.nameLabel?.font = UIFont(name: "MatissePro-EB", size: 60)
         cell?.nameLabel?.text = recipes[indexPath.row].topCall
+        
+        
+        
         //        cell?.nameLabel!.text = recipes[indexPath.row].name
         //        cell!.thumbnailImageView!.image = UIImage(named:recipes[indexPath.row].thumbnails)
         //        cell!.prepTimeLabel!.text = recipes[indexPath.row].prepTime

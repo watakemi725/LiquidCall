@@ -4,8 +4,13 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="FOT-MatissePro-EB.otf">
+            <string>MatissePro-EB</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
-        <!--More View Controller-->
+        <!--リクエスト-->
         <scene sceneID="fPO-3X-862">
             <objects>
                 <viewController id="SEf-SI-yRk" customClass="MoreViewController" customModule="LiquidCall" customModuleProvider="target" sceneMemberID="viewController">
@@ -24,7 +29,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="more" id="cgd-R9-7CR"/>
+                    <tabBarItem key="tabBarItem" title="リクエスト" image="Icon-40.png" id="cgd-R9-7CR"/>
                     <connections>
                         <outlet property="webView" destination="l1b-0J-5qz" id="zZM-Tj-FfF"/>
                     </connections>
@@ -105,6 +110,7 @@
                     <navigationItem key="navigationItem" id="oBf-V8-XHx"/>
                     <connections>
                         <outlet property="allcall" destination="w1c-Vm-4Cj" id="0S0-hp-xAp"/>
+                        <outlet property="myButton" destination="Rhq-x7-gQx" id="Z7B-yw-gFV"/>
                         <outlet property="prepTime" destination="C7C-ck-Hax" id="Be2-zY-qTd"/>
                     </connections>
                 </viewController>
@@ -112,11 +118,11 @@
             </objects>
             <point key="canvasLocation" x="793" y="319"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--コール一覧-->
         <scene sceneID="dfA-qb-YZe">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xGA-NX-6GL" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="cAF-YB-R5m"/>
+                    <tabBarItem key="tabBarItem" title="コール一覧" image="Icon-40.png" id="cAF-YB-R5m"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="1fO-t7-Uyy"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="qam-2H-Lv7">
@@ -155,9 +161,9 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iwY-0N-Sl8">
-                                                    <rect key="frame" x="0.0" y="2" width="320" height="70"/>
+                                                    <rect key="frame" x="14" y="0.0" width="306" height="70"/>
                                                     <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="30"/>
+                                                    <fontDescription key="fontDescription" name="MatissePro-EB" family="FOT-Matisse Pro" pointSize="30"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -185,9 +191,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hdM-tN-9UL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="233" y="312"/>
+            <point key="canvasLocation" x="233" y="310"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Icon-40.png" width="40" height="40"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

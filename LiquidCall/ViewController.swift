@@ -20,6 +20,7 @@ class ViewController: UIViewController,AVAudioPlayerDelegate {
     @IBOutlet var nameLabel: UILabel?
     @IBOutlet var prepTime: UITextView?
     @IBOutlet var allcall: UITextView?
+    @IBOutlet var myButton: UIButton! = UIButton()
     
     var audioPlayer:AVAudioPlayer!
     var sound_data :NSURL?
@@ -38,7 +39,7 @@ class ViewController: UIViewController,AVAudioPlayerDelegate {
         
        
         
-        sound_data = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("doshita1", ofType: "wav")!)
+        sound_data = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource(imageName!, ofType: "wav")!)
         audioPlayer = AVAudioPlayer(contentsOfURL: sound_data, error: nil)
         
         //AVAudioPlayerのデリゲートをセット.
@@ -47,12 +48,19 @@ class ViewController: UIViewController,AVAudioPlayerDelegate {
         audioPlayer.prepareToPlay()
         
         
-        navigationItem.title = nameString!
+//        navigationItem.title = nameString!
         
         imageView?.image = UIImage(named: imageName!)
         nameLabel?.text = nameString!
         prepTime?.text = prepString!
         allcall?.text = allcallString!
+        
+        myButton.setTitle("▶︎", forState: UIControlState.Normal)
+        myButton.setTitleColor(UIColor.blackColor(), forState: .Normal)
+        myButton.backgroundColor = UIColor.cyanColor()
+        myButton.addTarget(self, action: "onClickMyButton:", forControlEvents: UIControlEvents.TouchUpInside)
+        myButton.layer.masksToBounds = true
+        myButton.layer.cornerRadius = 50.0
         
     }
     
@@ -68,12 +76,12 @@ class ViewController: UIViewController,AVAudioPlayerDelegate {
         if audioPlayer.playing == true {
             
             //myAudioPlayerを一時停止.
-            audioPlayer.pause()
+//            audioPlayer.pause()
             sender.setTitle("▶︎", forState: .Normal)
         } else {
             
             //myAudioPlayerの再生.
-            audioPlayer.play()
+//            audioPlayer.play()
             sender.setTitle("■", forState: .Normal)
         }
     }
